@@ -219,7 +219,7 @@
                   <pluginExecutionFilter>
                     <groupId>org.apache.camel</groupId>
                     <artifactId>camel-package-maven-plugin</artifactId>
-                    <versionRange>${project.version}</versionRange>
+                    <versionRange>2.18.5</versionRange>
                     <goals>
                       <goal>generate-eips-list</goal>
                     </goals>
@@ -331,7 +331,7 @@
       <plugin>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-package-maven-plugin</artifactId>
-        <version>${project.version}</version>
+        <version>2.18.5</version>
         <executions>
           <execution>
             <id>components</id>

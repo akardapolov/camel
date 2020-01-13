@@ -287,6 +287,10 @@ public final class FileUtil {
         if (path == null) {
             return null;
         }
+
+        if (path.startsWith("http:")){
+            return path;
+        }
         
         // only normalize if contains a path separator
         if (path.indexOf('/') == -1 && path.indexOf('\\') == -1)  {
